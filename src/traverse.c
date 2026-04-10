@@ -70,6 +70,7 @@ void traverse_reveal(Graph *g, GameState *s, int node_id, int link_index)
 
 void traverse_collapse(Graph *g, GameState *s)
 {
+    (void)s;
     for (int i = 0; i < g->node_count; i++) {
         Node *n = &g->nodes[i];
         if (n->collapsed) continue;
