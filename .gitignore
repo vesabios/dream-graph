@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+*.o
+*.d
+
+# WASM build output
+web/dream-graph.js
+web/dream-graph.wasm
+
+# Editor
+.vscode/
+*.swp
+*~
+
+# OS
+Thumbs.db
+.DS_Store
